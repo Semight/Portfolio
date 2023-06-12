@@ -10,10 +10,6 @@ const StyledThirdSection = styled.div`
   padding-top: 0;
   display: flex;
 
-  // @media (max-width: 768px) {
-  //   display: block;
-  // }
-
   .container {
     width: 80vw;
     height: 65vh;

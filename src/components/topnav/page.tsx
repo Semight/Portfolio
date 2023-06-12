@@ -3,6 +3,7 @@ import React from "react";
 import styled from "styled-components";
 import Image from "next/image";
 import Logo from "../../assets/logo.svg";
+import Link from "next/link";
 
 const StyledTopNav = styled.div`
   width: 100%;
@@ -75,35 +76,35 @@ const Topnav = () => {
         <Flex>
           <div className="navbar-wrap">
             <ImageContainer>
-              <a href="/">
+              <Link href="/">
                 <Image src={Logo} width={40} height={40} alt="Logo Image" />
-              </a>
+              </Link>
             </ImageContainer>
             <div className="block-text">
               Based in Nigeria <br /> 🇳🇬
             </div>
             <div className="nav-link">
-              <a
+              <Link
                 href="/home"
                 className="link"
                 style={{ textDecoration: "none" }}
               >
                 Home
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/project"
                 className="link"
                 style={{ textDecoration: "none" }}
               >
                 Work
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/contact"
                 className="link"
                 style={{ textDecoration: "none" }}
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
         </Flex>

@@ -98,12 +98,9 @@ const Navbar = () => {
             </LogoContainer>
             <Link href={"/home"}>HOME</Link>
             <Link href={"/project"}>PROJECTS</Link>
-            <Link href={"/contact"}>CONTACTS</Link>
-            {/* <a href="/home">HOME</a>
-            <a href="/project">PROJECTS</a>
-            <a href="/contact" className="contact">
+            <Link href={"/contact"} className="contact">
               CONTACTS
-            </a> */}
+            </Link>
           </div>
         </div>
       </StyledNav>
