@@ -3,6 +3,7 @@ import React from "react";
 import Logo from "../../assets/logo.svg";
 import styled from "styled-components";
 import Image from "next/image";
+import Link from "next/link";
 
 const LogoContainer = styled.div`
   margin-bottom: 0;
@@ -95,11 +96,14 @@ const Navbar = () => {
                 <Image src={Logo} width={40} height={40} alt="Logo Image" />
               </ImageContainer>
             </LogoContainer>
-            <a href="/home">HOME</a>
+            <Link href={"/home"}>HOME</Link>
+            <Link href={"/project"}>PROJECTS</Link>
+            <Link href={"/contact"}>CONTACTS</Link>
+            {/* <a href="/home">HOME</a>
             <a href="/project">PROJECTS</a>
             <a href="/contact" className="contact">
               CONTACTS
-            </a>
+            </a> */}
           </div>
         </div>
       </StyledNav>
