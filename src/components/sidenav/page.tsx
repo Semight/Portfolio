@@ -15,6 +15,11 @@ const StyledSidenav = styled.div`
     background-color: black;
     color: #fff;
 
+    &:hover {
+      background-color: #fff;
+      color: black;
+    }
+
     h1 {
       text-align: center;
       font-family: ui-monospace;
