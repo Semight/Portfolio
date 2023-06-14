@@ -76,7 +76,7 @@ const StyledNav = styled.div`
 
         &:hover {
           background-color: #124559;
-          color: #01161e;
+          color: #fff;
         }
       }
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 const StyledFooter = styled.div`
@@ -67,9 +67,15 @@ const StyledFooter = styled.div`
         transition: all 0.5s cubic-bezier(0.76, 0, 0.24, 1) 0s;
 
         .arrow {
-          font-size: 1.5rem;
+          font-size: 2.2rem;
           z-index: 1;
           color: #fff;
+          overflow: hidden;
+          transition: transform 0.3s ease-in-out;
+
+          &:hover {
+            transform: translateY(-10px);
+          }
         }
       }
     }
@@ -169,7 +175,7 @@ const Footer = () => {
 
           <a href="#" className="scroll-up">
             <div className="scroll-circle">
-              <span className="arrow">👆🏻</span>
+              <span className="arrow">↑</span>
             </div>
           </a>
         </div>

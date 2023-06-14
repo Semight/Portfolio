@@ -78,7 +78,7 @@ const Flex = styled.div`
       a {
         width: 18vw;
         height: 4vw;
-        color: #01161e;
+        color: #fff;
         cursor: pointer;
         background-color: #124559;
         border-radius: 50px;
