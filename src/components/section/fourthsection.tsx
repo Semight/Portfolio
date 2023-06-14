@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import Kai from "../../assets/kai.webp";
+import BRN from "../../assets/breaking-news.jpeg";
 import GDG from "../../assets/Component 108 (1).png";
 import BN from "../../assets/newsarticle_placeholder.webp";
 import CA from "../../assets/chipper-app.png";
@@ -289,7 +289,7 @@ const Fourthsection = () => {
 
             <a href="http://redorite.com" className="flex2-link">
               <div className="flex-image">
-                <Image src={Kai} alt={""} className="Images" />
+                <Image src={BRN} alt={""} className="Images" />
               </div>
               <div className="block1">
                 <div className="text-flex">
