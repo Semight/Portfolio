@@ -54,7 +54,7 @@ const StyledFourthSection = styled.div`
 
 const Flex = styled.div`
   @media (max-width: 768px) {
-    height: 770vh;
+    height: 590vh;
     justify-content: center;
     align-items: flex-start;
     display: flex;
@@ -199,6 +199,7 @@ const Flex = styled.div`
 
           .block1 {
             width: 100vw;
+            height: 40vh;
             padding-left: 40px;
             padding-right: 40px;
 
@@ -270,8 +271,14 @@ const Fourthsection = () => {
                   <div className="number">1</div>
                 </div>
                 <div className="block-text">
-                  In GDG Ibadan Website, where to showcase all past and future
-                  events and anything you can think of.
+                  In the GDG Ibadan Website, we have a dedicated section that
+                  serves as a comprehensive platform to showcase all our past
+                  and future events. It&apos;s the go-to place where you can
+                  find detailed information, photos, and videos capturing the
+                  essence of our previous gatherings. Additionally, we strive to
+                  provide an extensive repository of resources, including
+                  presentation slides, code repositories, and tutorials, making
+                  it a valuable hub for learning and collaboration.
                 </div>
               </div>
 
@@ -290,8 +297,14 @@ const Fourthsection = () => {
                   <div className="number">2</div>
                 </div>
                 <div className="block-text">
-                  In Redorite, you read News and know what is going on around
-                  the world.
+                  In Redorite, you can immerse yourself in the world of news and
+                  stay informed about the latest happenings globally. Our
+                  platform provides a seamless experience where you can access a
+                  diverse range of news articles, covering various topics from
+                  politics and business to entertainment and sports. With
+                  Redorite, you&apos;ll always be up to date with current
+                  events, gaining valuable insights and knowledge about what is
+                  going on around the world.
                 </div>
               </div>
             </a>
@@ -308,9 +321,17 @@ const Fourthsection = () => {
                   <div className="number">3</div>
                 </div>
                 <div className="block-text">
-                  In News App, you read and know what is going on around the
-                  world and the Page uses getServerSideProps to fetch data
-                  server-side on every request.
+                  In the News App, you have the power to read and stay informed
+                  about the latest events unfolding worldwide. Our app offers a
+                  user-friendly interface where you can access a vast array of
+                  news articles, covering diverse topics ranging from politics
+                  and business to entertainment and sports. To ensure real-time
+                  updates, the app utilizes the getServerSideProps function,
+                  fetching data server-side on every request. This approach
+                  guarantees that you receive the most up-to-date information at
+                  your fingertips. Stay connected with the world, explore
+                  breaking news, and dive into in-depth analysis, all within the
+                  convenience of our News App.
                 </div>
               </div>
 
@@ -331,8 +352,16 @@ const Fourthsection = () => {
                   <div className="number">4</div>
                 </div>
                 <div className="block-text">
-                  This is just landing page of a Chipper cash landing page built
-                  with React.
+                  This landing page represents the essence of Chipper Cash,
+                  expertly crafted using React. Designed to make a lasting
+                  impression, it showcases the core features and benefits of our
+                  innovative financial platform. With its seamless user
+                  experience and modern aesthetics, the Chipper Cash landing
+                  page invites visitors to explore a world of convenient and
+                  secure money transfers, instant payments, and cross-border
+                  transactions. Through the power of React, we&apos;ve created
+                  an interactive and responsive interface that captivates users
+                  and effortlessly communicates the value of our services.
                 </div>
               </div>
             </a>
@@ -349,9 +378,17 @@ const Fourthsection = () => {
                   <div className="number">5</div>
                 </div>
                 <div className="block-text">
-                  This is an e-commerce website .The website offers a wide range
-                  of food products to cater to different tastes and preferences.
-                  It may include snacks, beverages, and more.
+                  This e-commerce website is your gateway to a diverse selection
+                  of food products, meticulously curated to satisfy various
+                  tastes and preferences. Whether you&apos;re craving snacks,
+                  beverages, or other culinary delights, our platform offers a
+                  vast array of options to tantalize your taste buds. From
+                  healthy and organic choices to indulgent treats, we strive to
+                  cater to every palate. Explore our extensive collection,
+                  browse through categories, and discover a world of flavors at
+                  your fingertips. With our e-commerce website, we aim to
+                  provide a seamless shopping experience that ensures your
+                  culinary desires are met with convenience and satisfaction.
                 </div>
               </div>
 

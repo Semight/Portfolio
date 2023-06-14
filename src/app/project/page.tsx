@@ -102,6 +102,7 @@ const StyledProject = styled.div`
             width: 28vw;
             height: 50vh;
             background-position: 50% 50%;
+            object-fit: cover;
           }
         }
 
@@ -175,6 +176,7 @@ const Project = () => {
                   backgroundColor: "#333",
                   backgroundPosition: "50%",
                   backgroundSize: "cover",
+                  objectFit: "cover",
                 }}
               />
             </div>
@@ -193,6 +195,7 @@ const Project = () => {
                   backgroundColor: "#333",
                   backgroundPosition: "50%",
                   backgroundSize: "cover",
+                  objectFit: "cover",
                 }}
               />
             </div>
@@ -214,6 +217,7 @@ const Project = () => {
                   backgroundColor: "#333",
                   backgroundPosition: "50%",
                   backgroundSize: "cover",
+                  objectFit: "cover",
                 }}
               />
             </div>
