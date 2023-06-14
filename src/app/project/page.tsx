@@ -3,14 +3,10 @@ import Navbar from "@/components/navbar/page";
 import Topnav from "@/components/topnav/page";
 import React from "react";
 import styled from "styled-components";
-import Footer from "../../components/footer/page";
+import Footer from "@/components/footer/page";
 import Sidenav from "@/components/sidenav/page";
 import Image from "next/image";
 import Kaizen from "../../assets/kaizen.png";
-import Leaf from "../../assets/leaf.png";
-import Clay from "../../assets/clayhouse.webp";
-import Show from "../../assets/show.png";
-import Footers from "@/components/footers/page";
 import GDG from "../../assets/Component 108 (1).png";
 import BN from "../../assets/newsarticle_placeholder.webp";
 import CA from "../../assets/chipper-app.png";
@@ -292,7 +288,7 @@ const Project = () => {
           </div>
         </div>
 
-        <Footers />
+        <Footer />
       </StyledProject>
     </>
   );

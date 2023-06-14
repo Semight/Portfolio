@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React, { useRef } from "react";
+import React from "react";
 import styled, { keyframes } from "styled-components";
 import Kai from "../../assets/kai.webp";
 import GDG from "../../assets/Component 108 (1).png";
