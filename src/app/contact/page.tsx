@@ -152,14 +152,17 @@ const Contact = () => {
 
         <div className="Container">
           <div className="media-container">
-            <a href="" className="links">
-              <div className="t-links">Instagram</div>
+            <a href="https://twitter.com/irefindavid" className="links">
+              <div className="t-links">Twitter</div>
             </a>
-            <a href="" className="links">
+            <a
+              href="https://www.linkedin.com/in/irefin-david-84b952241/"
+              className="links"
+            >
               <div className="t-links">LinkedIn</div>
             </a>
-            <a href="" className="links">
-              <div className="t-links">Email</div>
+            <a href="https://github.com/Semight" className="links">
+              <div className="t-links">Github</div>
             </a>
           </div>
 

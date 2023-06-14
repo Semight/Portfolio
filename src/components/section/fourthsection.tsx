@@ -3,6 +3,10 @@ import Image from "next/image";
 import React, { useRef } from "react";
 import styled, { keyframes } from "styled-components";
 import Kai from "../../assets/kai.webp";
+import GDG from "../../assets/Component 108 (1).png";
+import BN from "../../assets/newsarticle_placeholder.webp";
+import CA from "../../assets/chipper-app.png";
+import SR from "../../assets/restaurant.png";
 
 const slideAnimation = keyframes`
   0% {
@@ -74,9 +78,9 @@ const Flex = styled.div`
       a {
         width: 18vw;
         height: 4vw;
-        color: #333;
+        color: #01161e;
         cursor: pointer;
-        background-color: #e1f210;
+        background-color: #124559;
         border-radius: 50px;
         justify-content: center;
         align-items: center;
@@ -88,6 +92,11 @@ const Flex = styled.div`
         position: sticky;
         top: 100px;
         bottom: 60px;
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+          transform: translateX(-5px);
+        }
       }
     }
 
@@ -95,7 +104,7 @@ const Flex = styled.div`
       .flex2-link {
         width: 70vw;
         color: #333;
-        cursor: none;
+        cursor: pointer;
         justify-content: space-around;
         text-decoration: none;
         display: flex;
@@ -114,9 +123,9 @@ const Flex = styled.div`
             .text {
               margin-bottom: 20px;
               font-family: Simplonmono, sans-serif;
-              font-size: 3.889vw;
+              font-size: 3vw;
               font-weight: 500;
-              line-height: 5vw;
+              line-height: 4vw;
             }
 
             .number {
@@ -155,6 +164,8 @@ const Flex = styled.div`
             background-size: cover;
             display: block;
             position: static;
+            border-radius: 10px;
+            object-fit: cover;
           }
         }
       }
@@ -253,20 +264,18 @@ const Fourthsection = () => {
               <div className="block1">
                 <div className="text-flex">
                   <div className="text">
-                    Kaizen <br /> Psychology{" "}
+                    GDG <br /> Ibadan{" "}
                   </div>
-                  <div className="number">22</div>
+                  <div className="number">1</div>
                 </div>
                 <div className="block-text">
-                  In psychology, Kaizen can be applied to personal development,
-                  where it is used to make small, incremental changes in
-                  behaviour, attitude or thinking that lead to significant
-                  improvements over time.
+                  In GDG Ibadan Website, where to showcase all past and future
+                  events and anything you can think of.
                 </div>
               </div>
 
               <div className="flex-image">
-                <Image src={Kai} alt={""} className="Images" />
+                <Image src={GDG} alt={""} className="Images" />
               </div>
             </a>
 
@@ -276,79 +285,77 @@ const Fourthsection = () => {
               </div>
               <div className="block1">
                 <div className="text-flex">
-                  <div className="text">
-                    Kaizen <br /> Psychology{" "}
-                  </div>
-                  <div className="number">22</div>
+                  <div className="text">Redorite</div>
+                  <div className="number">2</div>
                 </div>
                 <div className="block-text">
-                  In psychology, Kaizen can be applied to personal development,
-                  where it is used to make small, incremental changes in
-                  behaviour, attitude or thinking that lead to significant
-                  improvements over time.
+                  In Redorite, you read News and know what is going on around
+                  the world.
                 </div>
               </div>
             </a>
 
-            <a href="" className="flex2-link">
+            <a
+              href="https://breaking-news-three.vercel.app/"
+              className="flex2-link"
+            >
               <div className="block1">
                 <div className="text-flex">
                   <div className="text">
-                    Kaizen <br /> Psychology{" "}
+                    News <br /> App{" "}
                   </div>
-                  <div className="number">22</div>
+                  <div className="number">3</div>
                 </div>
                 <div className="block-text">
-                  In psychology, Kaizen can be applied to personal development,
-                  where it is used to make small, incremental changes in
-                  behaviour, attitude or thinking that lead to significant
-                  improvements over time.
+                  In News App, you read and know what is going on around the
+                  world and the Page uses getServerSideProps to fetch data
+                  server-side on every request.
                 </div>
               </div>
 
               <div className="flex-image">
-                <Image src={Kai} alt={""} className="Images" />
+                <Image src={BN} alt={""} className="Images" />
               </div>
             </a>
 
-            <a href="" className="flex2-link">
+            <a href="https://chipper-app.netlify.app" className="flex2-link">
               <div className="flex-image">
-                <Image src={Kai} alt={""} className="Images" />
+                <Image src={CA} alt={""} className="Images" />
               </div>
               <div className="block1">
                 <div className="text-flex">
                   <div className="text">
-                    Kaizen <br /> Psychology{" "}
+                    Chipper <br /> App{" "}
                   </div>
-                  <div className="number">22</div>
+                  <div className="number">4</div>
                 </div>
                 <div className="block-text">
-                  In psychology, Kaizen can be applied to personal development,
-                  where it is used to make small, incremental changes in
-                  behaviour, attitude or thinking that lead to significant
-                  improvements over time.
+                  This is just landing page of a Chipper cash landing page built
+                  with React.
                 </div>
               </div>
             </a>
 
-            <a href="" className="flex2-link">
+            <a
+              href="https://semight-restaurant.netlify.app"
+              className="flex2-link"
+            >
               <div className="block1">
                 <div className="text-flex">
                   <div className="text">
-                    Kaizen <br /> Psychology{" "}
+                    Semight <br /> Restaurant{" "}
                   </div>
-                  <div className="number">22</div>
+                  <div className="number">5</div>
                 </div>
                 <div className="block-text">
-                  In psychology, Kaizen can be applied to personal development,
-                  where it is used to make small, incremental changes in
-                  behaviour, attitude or thinking that lead to significant
-                  improvements over time.
+                  This is an e-commerce website .The website offers a wide range
+                  of food products to cater to different tastes and preferences.
+                  It may include snacks, beverages, and more.
                 </div>
               </div>
 
               <div className="flex-image">
-                <Image src={Kai} alt={""} className="Images" />
+                <Image src={SR} alt={""} className="Images" />
               </div>
             </a>
           </div>

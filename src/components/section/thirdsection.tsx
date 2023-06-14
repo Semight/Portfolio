@@ -124,14 +124,14 @@ const Thirdsection = () => {
               knowledge to others.
             </div>
             <div className="block-text1">
-              Hey, I&rsquo;m Dan, a graphic designer, creative and social
-              architect who loves to tell stories and creating feeling through
-              the art of experimentation and motion. I&rsquo;m currently a
-              designer at Visions Design doing a mix of motion graphics, web
-              design and branding while also running workshops at the University
-              For The Creative Arts. I&rsquo;m also a contributor to Volt, a
-              design learning community teaching new creatives in Figma and
-              Webflow.
+              Hey, I&rsquo;m Dav, a frontend developer with a knack for creating
+              elegant and intuitive user interfaces. I bring designs to life and
+              ensure seamless functionality. I thrive on collaborating with
+              multidisciplinary teams, turning ideas into captivating web
+              experiences. From responsive design to performance optimization, I
+              strive to deliver engaging user journeys across devices.
+              Let&rsquo;s work together to build immersive digital solutions
+              that leave a lasting impression.
             </div>
           </div>
         </div>

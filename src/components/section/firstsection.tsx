@@ -116,10 +116,9 @@ const Firstsection = () => {
           <div className="b-container">
             <div className="block-text">
               Hi, I&apos;m Dav, a frontend engineer based in Nigeria <br />{" "}
-              working in Web-design, Motion Design, Branding <br /> and
-              typography.
+              passionate about crafting visually appealing and user-friendly{" "}
+              <br /> web experiences.
             </div>
-
             <h1 className="heading-text">
               DAVID <span>✺</span>
               FRONTEND

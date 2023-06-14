@@ -10,6 +10,15 @@ import Kaizen from "../../assets/kaizen.png";
 import Leaf from "../../assets/leaf.png";
 import Clay from "../../assets/clayhouse.webp";
 import Show from "../../assets/show.png";
+import Footers from "@/components/footers/page";
+import GDG from "../../assets/Component 108 (1).png";
+import BN from "../../assets/newsarticle_placeholder.webp";
+import CA from "../../assets/chipper-app.png";
+import SR from "../../assets/restaurant.png";
+import Davflix from "../../assets/netflix.jpeg";
+import PV from "../../assets/piggyvests.png";
+import Babs from "../../assets/project-2.jpg";
+import Music from "../../assets/music.jpeg";
 
 const StyledProject = styled.div`
   height: 30vh;
@@ -57,7 +66,7 @@ const StyledProject = styled.div`
     .project-link {
       width: 90vw;
       height: 540px;
-      cursor: none;
+      cursor: pointer;
       text-decoration: none;
 
       .image-container {
@@ -84,7 +93,7 @@ const StyledProject = styled.div`
       .box-link {
         width: 28vw;
         height: 60vh;
-        cursor: none;
+        cursor: pointer;
         text-decoration: none;
 
         .image-contain {
@@ -162,6 +171,24 @@ const Project = () => {
           <a href="" className="project-link">
             <div className="image-container">
               <Image
+                src={GDG}
+                alt={""}
+                style={{
+                  width: "90vw",
+                  height: "540px",
+                  backgroundColor: "#333",
+                  backgroundPosition: "50%",
+                  backgroundSize: "cover",
+                }}
+              />
+            </div>
+          </a>
+        </div>
+
+        <div className="h-container">
+          <a href="" className="project-link">
+            <div className="image-container">
+              <Image
                 src={Kaizen}
                 alt={""}
                 style={{
@@ -177,28 +204,13 @@ const Project = () => {
         </div>
 
         <div className="h-container">
-          <a href="" className="project-link">
+          <a
+            href="https://breaking-news-three.vercel.app/"
+            className="project-link"
+          >
             <div className="image-container">
               <Image
-                src={Leaf}
-                alt={""}
-                style={{
-                  width: "90vw",
-                  height: "540px",
-                  backgroundColor: "#333",
-                  backgroundPosition: "50%",
-                  backgroundSize: "cover",
-                }}
-              />
-            </div>
-          </a>
-        </div>
-
-        <div className="h-container">
-          <a href="" className="project-link">
-            <div className="image-container">
-              <Image
-                src={Clay}
+                src={BN}
                 alt={""}
                 style={{
                   width: "90vw",
@@ -214,30 +226,33 @@ const Project = () => {
 
         <div className="flex-container1">
           <div className="f-box">
-            <a href="" className="box-link">
+            <a href="https://chipper-app.netlify.app" className="box-link">
               <div className="image-contain">
-                <Image src={Show} alt={""} className="images" />
+                <Image src={CA} alt={""} className="images" />
               </div>
               <div className="text-div">
-                <h1 className="heading">Showreel</h1>
+                <h1 className="heading">Chipper App</h1>
               </div>
             </a>
 
-            <a href="" className="box-link">
+            <a
+              href="https://semight-restaurant.netlify.app"
+              className="box-link"
+            >
               <div className="image-contain">
-                <Image src={Show} alt={""} className="images" />
+                <Image src={SR} alt={""} className="images" />
               </div>
               <div className="text-div">
-                <h1 className="heading">Showreel</h1>
+                <h1 className="heading">E-Commerce</h1>
               </div>
             </a>
 
-            <a href="" className="box-link">
+            <a href="https://davflix.netlify.app" className="box-link">
               <div className="image-contain">
-                <Image src={Show} alt={""} className="images" />
+                <Image src={Davflix} alt={""} className="images" />
               </div>
               <div className="text-div">
-                <h1 className="heading">Showreel</h1>
+                <h1 className="heading">Davflix</h1>
               </div>
             </a>
           </div>
@@ -245,36 +260,39 @@ const Project = () => {
 
         <div className="flex-container2">
           <div className="f-box">
-            <a href="" className="box-link">
+            <a
+              href="https://piggyvest-ladingpage.netlify.app"
+              className="box-link"
+            >
               <div className="image-contain">
-                <Image src={Show} alt={""} className="images" />
+                <Image src={PV} alt={"Piggyvest image"} className="images" />
               </div>
               <div className="text-div">
-                <h1 className="heading">Showreel</h1>
+                <h1 className="heading">Piggyvest</h1>
               </div>
             </a>
 
-            <a href="" className="box-link">
+            <a href="https://babs-website.netlify.app" className="box-link">
               <div className="image-contain">
-                <Image src={Show} alt={""} className="images" />
+                <Image src={Babs} alt={""} className="images" />
               </div>
               <div className="text-div">
-                <h1 className="heading">Showreel</h1>
+                <h1 className="heading">Babs Portfolio</h1>
               </div>
             </a>
 
-            <a href="" className="box-link">
+            <a href="https://audiosemight.netlify.app" className="box-link">
               <div className="image-contain">
-                <Image src={Show} alt={""} className="images" />
+                <Image src={Music} alt={""} className="images" />
               </div>
               <div className="text-div">
-                <h1 className="heading">Showreel</h1>
+                <h1 className="heading">Audiosemight</h1>
               </div>
             </a>
           </div>
         </div>
 
-        <Footer />
+        <Footers />
       </StyledProject>
     </>
   );

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/logo.png";
 import styled from "styled-components";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,6 +18,8 @@ const ImageContainer = styled.div`
   border-radius: 5px;
   margin: 5px 0;
   padding-top: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
   padding-bottom: 6px;
   max-width: 100%;
   vertical-align: middle;
@@ -73,8 +75,8 @@ const StyledNav = styled.div`
         display: block;
 
         &:hover {
-          background-color: rgba(225, 242, 16);
-          color: rgb(51, 51, 51);
+          background-color: #124559;
+          color: #01161e;
         }
       }
 

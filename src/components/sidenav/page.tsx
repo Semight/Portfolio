@@ -11,7 +11,7 @@ const StyledSidenav = styled.div`
 
   .container {
     width: 40px;
-    height: 190px;
+    height: 160px;
     background-color: black;
     color: #fff;
 
@@ -36,12 +36,11 @@ const Sidenav = () => {
     <>
       <StyledSidenav>
         <div className="container">
+          <h1>D</h1>
+          <h1>A</h1>
+          <h1>V</h1>
           <h1>I</h1>
-          <h1>R</h1>
-          <h1>E</h1>
-          <h1>F</h1>
-          <h1>I</h1>
-          <h1>N</h1>
+          <h1>D</h1>
         </div>
       </StyledSidenav>
     </>

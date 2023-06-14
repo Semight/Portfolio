@@ -15,7 +15,7 @@ const Section = () => {
         <Firstsection />
         <Thirdsection />
         <Fourthsection />
-        <Fifthsection />
+        {/* <Fifthsection /> */}
       </StyledSection>
     </>
   );

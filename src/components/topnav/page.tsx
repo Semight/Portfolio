@@ -2,7 +2,7 @@
 import React from "react";
 import styled from "styled-components";
 import Image from "next/image";
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/logo.png";
 import Link from "next/link";
 
 const StyledTopNav = styled.div`
