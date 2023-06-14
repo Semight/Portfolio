@@ -182,7 +182,7 @@ const Project = () => {
         </div>
 
         <div className="h-container">
-          <a href="" className="project-link">
+          <a href="http://redorite.com" className="project-link">
             <div className="image-container">
               <Image
                 src={Kaizen}

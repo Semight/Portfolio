@@ -118,6 +118,12 @@ const StyledFooter = styled.div`
         }
       }
     }
+
+    @media (max-width: 768px) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 2rem;
+    }
   }
 
   .flex2 {
@@ -141,10 +147,10 @@ const StyledFooter = styled.div`
     }
 
     @media (max-width: 768px) {
+      column-gap: 10px;
+
       .link {
-        padding-right: 20px;
         font-size: 15px;
-        font-weight: 500;
       }
     }
   }

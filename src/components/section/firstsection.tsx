@@ -81,7 +81,7 @@ const StyledFirstSection = styled.div`
   }
 
   @media (max-width: 768px) {
-    height: 80vh;
+    height: 40vh;
 
     .container {
       height: 15vh;

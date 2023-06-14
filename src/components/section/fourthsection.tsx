@@ -178,6 +178,7 @@ const Flex = styled.div`
       .flex1 {
         width: 100vw;
         height: 30vh;
+        padding-bottom: 40px;
 
         a {
           width: 40vw;
@@ -279,7 +280,7 @@ const Fourthsection = () => {
               </div>
             </a>
 
-            <a href="" className="flex2-link">
+            <a href="http://redorite.com" className="flex2-link">
               <div className="flex-image">
                 <Image src={Kai} alt={""} className="Images" />
               </div>
