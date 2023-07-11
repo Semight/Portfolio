@@ -114,7 +114,7 @@ const Flex = styled.div`
           height: 75vh;
           border: 1px solid #333;
           border-style: none solid solid none;
-          padding: 40px 100px 40px 40px;
+          padding: 40px 70px 40px 40px;
           position: relative;
 
           .text-flex {
