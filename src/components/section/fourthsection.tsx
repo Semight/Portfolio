@@ -262,7 +262,7 @@ const Fourthsection = () => {
           </div>
 
           <div className="flex2">
-            <a href="" className="flex2-link">
+            <a href="https://gdg-v2.pages.dev/" className="flex2-link">
               <div className="block1">
                 <div className="text-flex">
                   <div className="text">

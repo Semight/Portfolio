@@ -165,7 +165,7 @@ const Project = () => {
         </div>
 
         <div className="h-container">
-          <a href="" className="project-link">
+          <a href="https://gdg-v2.pages.dev/" className="project-link">
             <div className="image-container">
               <Image
                 src={GDG}
