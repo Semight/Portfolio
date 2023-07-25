@@ -169,7 +169,7 @@ const Contact = () => {
           <div className="text-container">
             <div className="text1">
               <div className="texts">
-                I&rsquo;m currently unavailable for freelance work, <br /> but I
+                I&rsquo;m currently available for freelance work, <br /> but I
                 always love hearing new ideas and I&rsquo;m <br /> more than
                 happy to chat
               </div>
