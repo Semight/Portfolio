@@ -115,7 +115,7 @@ const Firstsection = () => {
         <div className="container">
           <div className="b-container">
             <div className="block-text">
-              Hi, I&apos;m Dav, a frontend engineer based in Nigeria <br />{" "}
+              Hi, I&apos;m Dav, a frontend developer based in Nigeria <br />{" "}
               passionate about crafting visually appealing and user-friendly{" "}
               <br /> web experiences.
             </div>
@@ -123,7 +123,7 @@ const Firstsection = () => {
               DAVID <span>✺</span>
               FRONTEND
             </h1>
-            <div className="b-heading">ENGINEER❋</div>
+            <div className="b-heading">DEVELOPER❋</div>
           </div>
         </div>
       </StyledFirstSection>
