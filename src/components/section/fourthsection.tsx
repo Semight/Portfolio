@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import BRN from "../../assets/breaking-news.jpeg";
+import YouGO from "../../assets/yougo.png";
 import GDG from "../../assets/Component 108 (1).png";
 import BN from "../../assets/newsarticle_placeholder.webp";
 import CA from "../../assets/chipper-app.png";
@@ -287,24 +287,21 @@ const Fourthsection = () => {
               </div>
             </a>
 
-            <a href="http://redorite.com" className="flex2-link">
+            <a href="https://www.yougo-crafts.store/" className="flex2-link">
               <div className="flex-image">
-                <Image src={BRN} alt={""} className="Images" />
+                <Image src={YouGO} alt={""} className="Images" />
               </div>
               <div className="block1">
                 <div className="text-flex">
-                  <div className="text">Redorite</div>
+                  <div className="text">YouGO</div>
                   <div className="number">2</div>
                 </div>
                 <div className="block-text">
-                  In Redorite, you can immerse yourself in the world of news and
-                  stay informed about the latest happenings globally. Our
-                  platform provides a seamless experience where you can access a
-                  diverse range of news articles, covering various topics from
-                  politics and business to entertainment and sports. With
-                  Redorite, you&apos;ll always be up to date with current
-                  events, gaining valuable insights and knowledge about what is
-                  going on around the world.
+                  YouGo is an e-commerce website dedicated to connecting buyers and
+                  women sellers in the world of crafts. Our mission is to
+                  provide a platform where women artisans and craft enthusiasts
+                  can come together to sell and purchase unique handmade
+                  products.
                 </div>
               </div>
             </a>

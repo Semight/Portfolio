@@ -6,7 +6,7 @@ import styled from "styled-components";
 import Footer from "@/components/footer/page";
 import Sidenav from "@/components/sidenav/page";
 import Image from "next/image";
-import BRN from "../../assets/breaking-news.jpeg";
+import yougo from "../../assets/yougo.png";
 import GDG from "../../assets/Component 108 (1).png";
 import BN from "../../assets/newsarticle_placeholder.webp";
 import CA from "../../assets/chipper-app.png";
@@ -184,10 +184,10 @@ const Project = () => {
         </div>
 
         <div className="h-container">
-          <a href="http://redorite.com" className="project-link">
+          <a href="https://www.yougo-crafts.store/" className="project-link">
             <div className="image-container">
               <Image
-                src={BRN}
+                src={yougo}
                 alt={""}
                 style={{
                   width: "90vw",
